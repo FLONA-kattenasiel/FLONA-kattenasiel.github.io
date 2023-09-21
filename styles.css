@@ -1,0 +1,22 @@
+h1 {
+  font-size: 400%;
+  color: white;
+  background-color: deeppink;
+}
+
+h2 {
+  font-family: courier;
+  font-size: 100%;
+  color: white;
+  background-color: deeppink;
+}
+
+.informatie {
+  float: left;
+}
+
+header {
+  background-color: deeppink;
+  width: 100%;
+  height: 20%;
+}
