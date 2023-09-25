@@ -14,7 +14,7 @@ h2 {
   margin: 0;
   padding-top: 45px;
   padding-bottom: 11px;
-  padding-right: 280px;
+  padding-right: 292px;
 }
 
 .informatie {
@@ -33,9 +33,41 @@ p{
 
 #voorpaginainhoud p {
   float: left;
-  width: 30%
+  width: 30%;
+  margin-bottom: 32%;
 }
 #voorpaginainhoud img {
   float: left;
-  width: 70%
+  width: 70%;
 }
+
+a{
+  font-size: 140%;
+  color: white;
+  background-color: deeppink;
+  margin-left: 20px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-right: 60px;
+  padding-left: 80px;
+}
+
+h3{
+    font-size: 400%;
+  color: white;
+  background-color: deeppink;
+  margin:0;
+  padding-right: 20px;
+}
+
+h4{
+   font-size: 140%;
+  color: white;
+  background-color: deeppink;
+    margin-left: 20px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-right: 60px;
+  padding-left: 80px;
+}
+ 
