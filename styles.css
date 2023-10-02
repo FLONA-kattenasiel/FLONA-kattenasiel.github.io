@@ -48,8 +48,8 @@ a{
   margin-left: 20px;
   padding-top: 23px;
   padding-bottom: 23px;
-  padding-right: 60px;
-  padding-left: 80px;
+  padding-right: 200px;
+  padding-left: 100px;
 }
 
 h3{
@@ -61,13 +61,50 @@ h3{
 }
 
 h4{
-   font-size: 140%;
-  color: white;
   background-color: deeppink;
-    margin-left: 20px;
+    margin-left: 2px;
   padding-top: 23px;
   padding-bottom: 23px;
-  padding-right: 60px;
+  padding-right: 120px;
   padding-left: 80px;
 }
- 
+
+#lkat {
+  padding-right: 600px;
+  padding-left: 150px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column img {
+  margin-left: 5%;
+}
