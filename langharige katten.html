@@ -1,6 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+<head>
 <title>Langharige Katten</title>
-<link rel="stylesheet" href="styles.css">
-    </head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+
+<body>
+
+<div class="row">
+  <div class="column">
+    <img src="boris.jpg" width="400"> 
+    <h2>BORIS</h2>
+    <p>Dit is Boris, hij is een echte knuffel kat en op zoek naar een fijn thuis. Goed voor als je kinderen hebt of gewoon graag een maatje wil om mee te knuffelen. Boris is nog een kitten, het gezin waar zijn moeder woont kan helaas niet voor hem en zijn broertjes en zusjes zorgen. Hij is een kater en is niet gecastreerd.  </p>
+  </div>
+  
+  <div class="column">
+    <img src="poekie.jpg" width="400"> 
+    <h2>POEKIE</h2>
+    <p>Dit is Poekie, ze vind het soms nog een beetje spannend om met mensen te zijn die ze niet kent. Dat komt omdat Poekie is achtergelaten langs de weg. Ze is toen naar ons gebracht en wij hebben haar helemaal opgeknapt. Als Poekie je leert kennen zal je merken dat ze echt een lieverd is die graag bij je komt. Ze is een poes en is niet gecastreerd.  </p>
+  </div>
+  
+  <div class="column">
+    <img src= "simba.jpg" width="400"> 
+    <h2>SIMBA</h2>
+    <p>Dit is Simba, een wat oudere kat. Hij is bij ons gebracht omdat zijn baasje helaas is overleden. De familie kon jammer genoeg niet voor hem zorgen, dus nu zoeken we een nieuw fijn thuis voor hem. Het is een katje die niet erg veel aandacht nodig heeft en best wel rustig is. Zijn oude baasje vond het fijn dat hij rond liep, want zo voelde ze zich niet zo alleen. Hij is een kater en is gecastreerd.</p>
+  </div>
+  
+    <div class="column">
+      <img src= "bella.jpg" width="400"> 
+    <h2>BELLA</h2>
+    <p>Dit is Bella, ze zit bom vol energie. Als je echt een stuiterbal in je huis wil is dit de kat voor jou. Bella houd van aandacht en heeft altijd zin om met je te spelen. Ze is bij ons gebracht omdat haar oude gezin vond dat ze niet genoeg tijd hadden. Wij hopen dus een thuis te vinden waar Bella alle aandacht krijgt die ze verdient. Ze is een poes en is gecastreerd.  </p>
+  </div>
+</div>
+
+</body>
+</html>
