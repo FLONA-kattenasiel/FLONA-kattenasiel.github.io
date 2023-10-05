@@ -59,6 +59,7 @@ a {
   padding-left: 20px;
 }
 
+
 h3 {
   font-size: 400%;
   color: white;
@@ -68,17 +69,20 @@ h3 {
 }
 
 h4 {
+  font-size: 80%;
+  color: white;
   background-color: deeppink;
-  margin-left: 2px;
+  margin-left: 20px;
   padding-top: 23px;
   padding-bottom: 23px;
-  padding-right: 120px;
-  padding-left: 80px;
+  padding-right: 200px;
+  padding-left: 100px;
 }
 
 #lkat {
-  padding-right: 600px;
-  padding-left: 150px;
+font-size: 300%;
+color:black;
+  
 }
 
 * {
@@ -113,13 +117,8 @@ header::after {
 }
 
 h5{
-  font-size: 200%;
-  color: white;
-  background-color: deeppink;
+    font-size: 300%;
   margin: 0;
-  padding-top: 20px;
-  padding-bottom: 11px;
-  padding-right: 292px;
 }
 
 h6{
